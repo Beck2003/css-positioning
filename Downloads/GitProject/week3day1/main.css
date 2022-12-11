@@ -1,0 +1,67 @@
+html, body, div, a, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #e9dcbb;
+}
+
+.nav {
+    background-color: #ba832b;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.nav :first-child {
+   float: left;  
+   padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    float: right; 
+}
+
+#parent {
+    text-align: center;
+}
+
+#cardsContainer {
+    display: inline-block;
+}
+
+
+h1 {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 75px;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    margin: 50px 5px;
+    float: left;
+    border: 2px solid  #ba832b;
+    width: 175px;
+    height: 275px;
+   
+}
+
+#parent2 {
+    text-align: center;
+}
+
+#infoContainer {
+    display: inline-block;
+}
+
+.card a {
+   background-color: #ba832b;
+   padding: 0 50px;
+   float: left;
+}
